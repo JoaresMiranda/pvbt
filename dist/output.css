@@ -566,6 +566,18 @@ video {
   left: 550px;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[45\%\] {
+  left: 45%;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
 .flex {
   display: flex;
 }
@@ -601,6 +613,11 @@ video {
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-\[490px\] {
