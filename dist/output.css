@@ -546,129 +546,63 @@ video {
   position: relative;
 }
 
-.left-10 {
-  left: 2.5rem;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.right-20 {
-  right: 5rem;
-}
-
-.left-\[150px\] {
-  left: 150px;
-}
-
-.left-\[550px\] {
-  left: 550px;
-}
-
-.left-\[50\%\] {
-  left: 50%;
-}
-
-.left-\[45\%\] {
-  left: 45%;
-}
-
 .left-\[40\%\] {
   left: 40%;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-4 {
+  top: 1rem;
 }
 
 .flex {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-full {
   height: 100%;
-}
-
-.max-h-max {
-  max-height: -moz-max-content;
-  max-height: max-content;
-}
-
-.w-\[1280px\] {
-  width: 1280px;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[450px\] {
-  width: 450px;
-}
-
-.w-\[470px\] {
-  width: 470px;
-}
-
-.w-\[490px\] {
-  width: 490px;
 }
 
 .w-11\/12 {
   width: 91.666667%;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+.w-36 {
+  width: 9rem;
 }
 
-.max-w-\[490px\] {
-  max-width: 490px;
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1280px\] {
   max-width: 1280px;
 }
 
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
   justify-content: center;
 }
 
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-white {
@@ -720,4 +654,30 @@ video {
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
   content: var(--tw-content);
+}
+
+@media (min-width: 768px) {
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:w-\[490px\] {
+    width: 490px;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
