@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .title-section {
+    font-family: 'Young Serif', serif;
+  }
+}
+
+.header--content::before {
+  clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 25% 100%);
+}
