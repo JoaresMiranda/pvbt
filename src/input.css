@@ -9,5 +9,5 @@
 }
 
 .header--content::before {
-  clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 25% 100%);
+  clip-path: polygon(37.5% 0%, 100% 0%, 100% 100%, 25% 100%);
 }
