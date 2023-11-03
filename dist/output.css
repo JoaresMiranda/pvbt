@@ -743,20 +743,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-3xl {
@@ -878,10 +866,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:w-auto {
     width: auto;
   }
@@ -937,15 +921,7 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:flex {
-    display: flex;
-  }
-
   .xl\:justify-start {
     justify-content: flex-start;
-  }
-
-  .xl\:justify-end {
-    justify-content: flex-end;
   }
 }
