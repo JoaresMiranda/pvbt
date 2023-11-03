@@ -682,15 +682,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .bg-\[\#05C0C9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(5 192 201 / var(--tw-bg-opacity));
