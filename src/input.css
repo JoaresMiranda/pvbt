@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .title-section {
+    font-family: 'Young Serif', serif;
+  }
+}
+
+.header--content::before {
+  clip-path: polygon(37.5% 0%, 100% 0%, 100% 100%, 25% 100%);
+}
+
+.turmas--picture {
+  width: 100%;
+  max-width: 750px;
+  clip-path: polygon(17% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.rectangle,
+.teacher {
+  clip-path: polygon(17% 0%, 100% 0%, 83% 100%, 0% 100%);
+}
