@@ -15,3 +15,8 @@
 .turmas--picture {
   clip-path: polygon(17% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+
+.rectangle,
+.teacher {
+  clip-path: polygon(17% 0%, 100% 0%, 83% 100%, 0% 100%);
+}
