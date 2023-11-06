@@ -603,6 +603,10 @@ video {
   pointer-events: auto;
 }
 
+.\!visible {
+  visibility: visible !important;
+}
+
 .visible {
   visibility: visible;
 }
@@ -2693,10 +2697,6 @@ video {
 
   .lg\:bg-\[url\(\'\.\/assets\/images\/bg-laranja\.png\'\)\] {
     background-image: url('./assets/images/bg-laranja.png');
-  }
-
-  .lg\:bg-\[url\(\'assets\/images\/bg-laranja\.png\'\)\] {
-    background-image: url('assets/images/bg-laranja.png');
   }
 
   .lg\:bg-left-top {
