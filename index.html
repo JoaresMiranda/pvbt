@@ -24,9 +24,13 @@
           class="header--content absolute flex items-center justify-center w-full h-full before:bg-black before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:opacity-70"
         >
           <div class="header--subtitle flex items-center relative w-11/12 h-full max-w-[1280px]">
-            <img src="./assets/images/logo.png" alt="logo da escola PVBT" class="w-36 md:w-auto" />
+            <img
+              src="./assets/images/logo.png"
+              alt="logo da escola PVBT"
+              class="w-24 sm:w-36 md:w-auto"
+            />
             <h2
-              class="title-section text-2xl md:text-5xl lg:text-6xl text-white lg:w-[490px] absolute left-[40%]"
+              class="title-section text-xl md:text-4xl lg:text-5xl xl:text-6xl text-white lg:w-[490px] absolute left-[40%]"
             >
               Venha pro play no melhor lugar da cidade
             </h2>
@@ -45,8 +49,10 @@
         id="Sobre"
         class="flex items-center justify-center h-96 relative bg-none lg:bg-no-repeat lg:bg-[url('./assets/images/bg-laranja.png')] lg:bg-left-top before:bg-[url('./assets/images/line.png')] before:content-[''] before:bg-repeat-x before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0"
       >
-        <div class="Sobre--content max-w-[1280px] p-8 lg:pl-60">
-          <h2 class="title-section text-4xl lg:text-5xl text-orange-500 mb-4">Sobre a escola</h2>
+        <div class="Sobre--content p-8 lg:pl-72">
+          <h2 class="title-section text-3xl lg:text-4xl xl:text-5xl text-orange-500 mb-4">
+            Sobre a escola
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis diam nec mauris dapibus
             accumsan vitae vestibulum urna. Curabitur id sem in justo pulvinar faucibus nec vitae
@@ -57,20 +63,22 @@
       </section>
 
       <!-- turmas e horarios -->
-      <section id="Turmas" class="bg-[#E1E815] mt-0 lg:mt-16 flex pb-8 lg:pb-0">
-        <div class="turmas--content w-11/12 p-8 relative lg:-top-24 space-y-8">
-          <h2 class="title-section text-4xl lg:text-5xl text-white lg:text-[#E1E815]">
+      <section id="Turmas" class="bg-[#E1E815] mt-0 lg:mt-16 flex sm:pb-16 lg:pb-0">
+        <div class="turmas--content w-full p-8 relative lg:-top-20 space-y-4 lg:space-y-8">
+          <h2
+            class="title-section text-3xl lg:text-4xl xl:text-5xl text-white lg:text-[#E1E815] w-full"
+          >
             Turmas e horários
           </h2>
           <p>Aulas individuais ou em grupo (até 6 alunos)</p>
-          <div class="flex space-x-16">
+          <div class="space-y-4 md:flex md:space-x-16">
             <div>
               <h3 class="font-bold">Turmas</h3>
               <ul class="list-disc ml-6">
                 <li>Infantil</li>
-                <li>Iniciantes</li>
-                <li>Intermediários</li>
-                <li>Avançados</li>
+                <li>Iniciante</li>
+                <li>Intermediário</li>
+                <li>Avançado</li>
               </ul>
             </div>
             <div>
@@ -90,24 +98,26 @@
             </ul>
           </div>
         </div>
-        <div class="turmas--picture relative -top-16 hidden lg:flex justify-end w-full">
+        <div class="turmas--picture relative -top-16 hidden lg:flex lg:h-1/2 justify-end w-full">
           <img src="./assets/images/aula-beach-tennis.png" />
         </div>
       </section>
 
       <!-- professores -->
-      <section id="Professores" class="relative bg-[#05C0C9] md:bg-white mt-4 pb-4">
+      <section id="Professores" class="relative bg-[#05C0C9] md:bg-white mt-4 md:mt-0 pb-4">
         <div
           class="rectangle md:w-[350px] md:h-[340px] md:absolute md:bg-[#05C0C9] md:-top-12 md:-left-24"
         ></div>
-        <h2 class="title-section text-4xl lg:text-5xl text-white md:text-[#05C0C9] p-8 md:ml-60">
+        <h2
+          class="title-section text-3xl lg:text-4xl xl:text-5xl text-white md:text-[#05C0C9] p-8 md:ml-60"
+        >
           Nossos professores
         </h2>
-        <div class="flex flex-wrap justify-center xl:justify-start -space-x-8 gap-2 px-4">
+        <div class="flex flex-wrap justify-center xl:justify-start -space-x-8 gap-4 px-4">
           <div class="teacher relative w-1/2 sm:w-[265px]">
             <img src="./assets/images/thumbnail-teacher.png" />
             <h3
-              class="absolute bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-xl title-section"
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
               Paulo Victor
             </h3>
@@ -115,7 +125,7 @@
           <div class="teacher relative w-1/2 sm:w-[265px]">
             <img src="./assets/images/thumbnail-teacher.png" />
             <h3
-              class="absolute bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-xl title-section"
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
               Paulo Victor
             </h3>
@@ -123,7 +133,7 @@
           <div class="teacher relative w-1/2 sm:w-[265px]">
             <img src="./assets/images/thumbnail-teacher.png" />
             <h3
-              class="absolute bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-xl title-section"
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
               Paulo Victor
             </h3>
@@ -131,7 +141,7 @@
           <div class="teacher relative w-1/2 sm:w-[265px]">
             <img src="./assets/images/thumbnail-teacher.png" />
             <h3
-              class="absolute bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-xl title-section"
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
               Paulo Victor
             </h3>
@@ -139,7 +149,7 @@
           <div class="teacher relative w-1/2 sm:w-[265px]">
             <img src="./assets/images/thumbnail-teacher.png" />
             <h3
-              class="absolute bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-xl title-section"
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
               Paulo Victor
             </h3>
@@ -148,9 +158,11 @@
       </section>
 
       <!-- localização -->
-      <section id="Localizacao" class="bg-indigo-800 my-4">
-        <h2 class="title-section text-4xl lg:text-5xl text-white py-8 px-4 h-full">Localização</h2>
-        <div class="location-content lg:flex pb-4">
+      <section id="Localizacao" class="bg-indigo-800 my-4 py-8">
+        <h2 class="title-section text-3xl lg:text-4xl xl:text-5xl text-white pb-4 px-4 h-full">
+          Localização
+        </h2>
+        <div class="location-content lg:flex">
           <div class="location-infos text-white px-4 space-y-8 w-full lg:w-1/2">
             <div>
               <h3 class="font-bold">Endereço</h3>
@@ -183,7 +195,7 @@
             </div>
           </div>
 
-          <div class="location-map my-8 lg:my-0 flex w-full justify-center lg:justify-end">
+          <div class="location-map mt-4 lg:my-0 flex w-full justify-center lg:justify-end">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.6752641912723!2d-38.50723038042292!3d-3.722165176346372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7494b767ca795%3A0x780cd881fe4a8ead!2sPVBT%20ESCOLA%20DE%20BEACH%20TENNIS!5e0!3m2!1spt-BR!2sbr!4v1699037364041!5m2!1spt-BR!2sbr"
               width="740"
