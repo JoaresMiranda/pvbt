@@ -731,6 +731,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -906,6 +911,22 @@ video {
   height: 18rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
+.h-\[120\%\] {
+  height: 120%;
+}
+
+.h-\[140\%\] {
+  height: 140%;
+}
+
+.h-\[110\%\] {
+  height: 110%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -944,6 +965,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[120\%\] {
+  width: 120%;
 }
 
 .max-w-\[1280px\] {
@@ -2091,6 +2116,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-4 {
