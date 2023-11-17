@@ -845,6 +845,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -853,24 +857,20 @@ video {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .w-1\/2 {
   width: 50%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-11\/12 {
   width: 91.666667%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-36 {
+  width: 9rem;
 }
 
 .w-\[120\%\] {
@@ -879,18 +879,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .max-w-\[1280px\] {
@@ -1445,6 +1433,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -2188,6 +2182,14 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2542,6 +2544,39 @@ video {
           clip-path: polygon(17% 0%, 100% 0%, 83% 100%, 0% 100%);
 }
 
+/* Slideshow */
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2712,20 +2747,12 @@ video {
     height: 340px;
   }
 
-  .md\:w-\[350px\] {
-    width: 350px;
-  }
-
-  .md\:w-auto {
-    width: auto;
-  }
-
-  .md\:w-40 {
-    width: 10rem;
-  }
-
   .md\:w-44 {
     width: 11rem;
+  }
+
+  .md\:w-\[350px\] {
+    width: 350px;
   }
 
   .md\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
@@ -2781,12 +2808,12 @@ video {
     width: 50%;
   }
 
-  .lg\:w-\[490px\] {
-    width: 490px;
-  }
-
   .lg\:w-60 {
     width: 15rem;
+  }
+
+  .lg\:w-\[490px\] {
+    width: 490px;
   }
 
   .lg\:justify-end {
