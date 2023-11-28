@@ -1,4 +1,4 @@
-![picture alt](print-project.png 'Layout for landing page')
+![picture alt](pvbt-readme.png 'Layout for landing page')
 
 # PVBT
 
@@ -7,5 +7,6 @@ Landing page created for PVBT - Beach Tennis School located at Praia de Iracema 
 ## Skills
 
 - TailwindCSS
+- PostCSS
 - HTML5
 - CSS3
