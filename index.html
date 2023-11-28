@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Escola de beach tennis localizada na Praia de Iracema, coração da cidade de Fortaleza - Ceará. Aulas individuais, em grupo ou avulsas, com professores certificados."
+    />
+
+    <meta
+      name="keywords"
+      content="beach, tennis, aula, praia, tênis, experimental, treino, play, escola, fortaleza, ceará, iracema, beira-mar, esporte"
+    />
+
+    <meta name="author" content="Joares Miranda" />
+
+    <link rel="canonical" href="http://www.pvbt.com.br" />
+
     <link href="output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
       rel="stylesheet"
     />
+
     <title>PVBT - Escola de Beach Tennis</title>
   </head>
   <body>
@@ -24,10 +40,11 @@
           class="header--content absolute flex items-center justify-center w-full h-full before:bg-black before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:opacity-70"
         >
           <div class="header--subtitle flex items-center relative w-11/12 h-full max-w-[1280px]">
+            <h1 class="hidden">PVBT - Escola de beach tennis</h1>
             <img
-              src="./assets/images/logo.png"
+              src="./assets/images/logo-pvbt-beach-tennis.png"
               alt="logo da escola PVBT"
-              class="w-32 md:w-auto mx-auto md:mx-0"
+              class="w-36 md:w-44 lg:w-60 mx-auto md:mx-0"
             />
             <h2
               class="title-section text-xl md:text-4xl lg:text-5xl xl:text-6xl text-white lg:w-[490px] absolute left-[40%] hidden md:block"
@@ -53,12 +70,19 @@
           <h2 class="title-section text-3xl lg:text-4xl xl:text-5xl text-orange-500 mb-4">
             Sobre a escola
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis diam nec mauris dapibus
-            accumsan vitae vestibulum urna. Curabitur id sem in justo pulvinar faucibus nec vitae
-            libero. Proin risus sem, varius vel dictum id, tempus vel ligula. Vivamus et viverra
-            justo. Aliquam ut justo gravida, vehicula nibh in, aliquet magna.
-          </p>
+          <div class="space-y-2">
+            <p>
+              A escola de beach tennis PVBT é fruto de um sonho idealizado pelo fundador Paulo
+              Vitor, localizada na Praia de Iracema, coração da capital do Ceará, com aulas
+              individuais, em grupo e/ou avulsas, para alunos de todos os níveis, do iniciante ao
+              avançado.
+            </p>
+            <p>
+              Contamos com um time de professores certificados e aulas dinâmicas para tornar sua
+              evolução no beach tennis ainda mais divertida.
+            </p>
+            <p><span class="font-bold">Bora pro play</span> com a gente!</p>
+          </div>
         </div>
       </section>
 
@@ -110,8 +134,23 @@
             </p>
           </div>
         </div>
+
         <div class="turmas--picture relative -top-16 hidden lg:flex lg:h-1/2 justify-end w-full">
-          <img src="./assets/images/aula-beach-tennis.png" />
+          <div class="mySlides fade">
+            <img src="./assets/images/pvbt-slide-turma.png" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/images/pvbt-slide-alunos-play.png" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/images/pvbt-slide-play.png" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/images/pvbt-slide-aluno-saque.png" />
+          </div>
         </div>
       </section>
 
@@ -126,44 +165,47 @@
           Nossos professores
         </h2>
         <div class="flex flex-wrap justify-center xl:justify-start -space-x-8 gap-4 px-4">
-          <div class="teacher relative w-1/2 sm:w-[265px]">
-            <img src="./assets/images/thumbnail-teacher.png" />
+          <!--div class="teacher relative w-1/2 sm:w-[265px]">
+            <img src="./assets/images/thumbnail-teacher.png" alt="Professor PVBT: Paulo Victor" />
             <h3
               class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
-              Paulo Victor
+              Paulo Vitor
+            </h3>
+          </div-->
+          <div class="teacher relative w-1/2 sm:w-[265px]">
+            <img
+              src="./assets/images/prof-victor-mesquita.png"
+              alt="Professor PVBT: Victor Mesquita"
+            />
+            <h3
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
+            >
+              Victor Mesquita
+            </h3>
+          </div>
+          <!--div class="teacher relative w-1/2 sm:w-[265px]">
+            <img src="./assets/images/thumbnail-teacher.png" alt="Professor PVBT: Abner Mateus" />
+            <h3
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
+            >
+              Abner Mateus
+            </h3>
+          </div-->
+          <div class="teacher relative w-1/2 sm:w-[265px]">
+            <img src="./assets/images/prof-natan-sales.png" alt="Professor PVBT: Natãn Sales" />
+            <h3
+              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
+            >
+              Natãn Sales
             </h3>
           </div>
           <div class="teacher relative w-1/2 sm:w-[265px]">
-            <img src="./assets/images/thumbnail-teacher.png" />
+            <img src="./assets/images/prof-caue-aragao.png" alt="Professor PVBT: Cauê Aragão" />
             <h3
               class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
             >
-              Paulo Victor
-            </h3>
-          </div>
-          <div class="teacher relative w-1/2 sm:w-[265px]">
-            <img src="./assets/images/thumbnail-teacher.png" />
-            <h3
-              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
-            >
-              Paulo Victor
-            </h3>
-          </div>
-          <div class="teacher relative w-1/2 sm:w-[265px]">
-            <img src="./assets/images/thumbnail-teacher.png" />
-            <h3
-              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
-            >
-              Paulo Victor
-            </h3>
-          </div>
-          <div class="teacher relative w-1/2 sm:w-[265px]">
-            <img src="./assets/images/thumbnail-teacher.png" />
-            <h3
-              class="absolute bottom-2 sm:bottom-8 w-full bg-black/[0.7] px-8 py-2 text-white text-base sm:text-xl title-section"
-            >
-              Paulo Victor
+              Cauê Aragão
             </h3>
           </div>
         </div>
@@ -180,7 +222,7 @@
               <h3 class="font-bold">Endereço</h3>
               <address>
                 <p>Aterro da Praia de Iracema</p>
-                <p>Av. Historiador Raimundo Girão, 955 - Meireles</p>
+                <p>Av. Historiador Raimundo Girão, 960 - Meireles</p>
                 <p>Fortaleza/Ceará</p>
               </address>
             </div>
@@ -191,8 +233,8 @@
             </div>
             <div>
               <p>
-                <span class="font-bold">cel.:</span>
-                <a href="tel:+5585996811924" target="_blank">(85) 99681.1924</a>
+                <span class="font-bold">Informações:</span>
+                <a href="tel:+5585996811924" target="_blank">+55 (85) 99681.1924</a>
               </p>
               <p>
                 <span class="font-bold">whatsapp:</span>
@@ -219,12 +261,17 @@
 
       <!-- footer -->
       <footer class="bg-[#E1E815] p-4 flex items-center space-x-2">
-        <img src="./assets/images/mini-logo.png" alt="Logo PVBT - Escola de Beach Tennis" />
+        <img
+          src="./assets/images/logo-pvbt-beach-tennis.png"
+          alt="Logo PVBT - Escola de Beach Tennis"
+          class="w-10 h-10"
+        />
         <div class="footer-info text-orange-500">
           <p class="text-sm font-bold">PVBT - Escola de Beach Tennis</p>
           <p class="text-xs">desenvolvido por Joares Miranda</p>
         </div>
       </footer>
     </div>
+    <script src="./assets/js/scripts.js"></script>
   </body>
 </html>
