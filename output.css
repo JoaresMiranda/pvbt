@@ -2867,10 +2867,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-start {
-    justify-content: flex-start;
-  }
-
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
